@@ -134,4 +134,9 @@ $('#dynamic-emoji').html(day_to_emoji[myDate.getDay()])
 $('#dynamic-day').html('Happy ' + day_to_str[myDate.getDay()] + '!');
 $('#dynamic-text').html(day_to_description[myDate.getDay()]);
 
+// holiday
+$('#dynamic-emoji').html(day_to_emoji[2])
+$('#dynamic-day').html('Holiday Notice');
+$('#dynamic-text').html("Sorry, we will be away until May 29th 2022.");
+
 $('body').css('visibility', 'visible');
