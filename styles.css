@@ -404,3 +404,12 @@ body{
     padding-top: 20px;
     font-size: 10pt;
 }
+
+.topBanner {
+    width: 100vw;
+    background-color: #B20606;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
