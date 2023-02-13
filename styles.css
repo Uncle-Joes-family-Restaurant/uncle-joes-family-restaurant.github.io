@@ -37,6 +37,10 @@ body{
     padding-top: 2px;
 }
 
+.pod-hours {
+    margin: 4px;
+}
+
 .navigation-btn{
     display: flex;
     vertical-align: middle;
@@ -285,6 +289,10 @@ body{
 }
 
 .pod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #F5F3F1;
     margin-top: 10px;
     padding-top: 20px;
